@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data and Models (Large files)
+*.pt
+*.pth
+*.ckpt
+client_weights
+client_weights/
+**/client_weights/
+data/
+group4_data_backup/
+
+# Logs and Results
+*.jsonl
+*.log
+result-iid/
+evaluation_results.png
+client_weights_visualization.png
+flower-niid-sv-dp/client_weights/
